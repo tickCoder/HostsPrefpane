@@ -10,6 +10,12 @@
 
 @interface HostsPrefpane : NSPreferencePane <NSTableViewDataSource, NSTableViewDelegate>
 
+@property (weak) IBOutlet NSButton *allBtn;
 - (void)mainViewDidLoad;
+- (IBAction)helpBtnAction:(id)sender;
+- (IBAction)importBtnAction:(id)sender;
+- (IBAction)addBtnAction:(id)sender;
+- (IBAction)delBtnAction:(id)sender;
+- (IBAction)allBtnAction:(id)sender;
 
 @end

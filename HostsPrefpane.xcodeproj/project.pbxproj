@@ -11,6 +11,10 @@
 		4F2EC75E1C6B7E47000581AA /* HostsPrefpane.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EC75D1C6B7E47000581AA /* HostsPrefpane.m */; };
 		4F2EC7601C6B7E47000581AA /* HostsPrefpane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */; };
 		4F2EC7631C6B7E47000581AA /* HostsPrefpane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2EC7611C6B7E47000581AA /* HostsPrefpane.xib */; };
+		4F931C771C6C7DF800CBAA64 /* HostsItemData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F931C751C6C7DF800CBAA64 /* HostsItemData.h */; };
+		4F931C781C6C7DF800CBAA64 /* HostsItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F931C761C6C7DF800CBAA64 /* HostsItemData.m */; };
+		4F931C7B1C6C8DA400CBAA64 /* EnableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F931C791C6C8DA400CBAA64 /* EnableCellView.h */; };
+		4F931C7C1C6C8DA400CBAA64 /* EnableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F931C7A1C6C8DA400CBAA64 /* EnableCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = HostsPrefpane.tiff; sourceTree = "<group>"; };
 		4F2EC7621C6B7E47000581AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HostsPrefpane.xib; sourceTree = "<group>"; };
 		4F2EC7641C6B7E47000581AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F931C751C6C7DF800CBAA64 /* HostsItemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostsItemData.h; sourceTree = "<group>"; };
+		4F931C761C6C7DF800CBAA64 /* HostsItemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostsItemData.m; sourceTree = "<group>"; };
+		4F931C791C6C8DA400CBAA64 /* EnableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnableCellView.h; sourceTree = "<group>"; };
+		4F931C7A1C6C8DA400CBAA64 /* EnableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnableCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */,
 				4F2EC7611C6B7E47000581AA /* HostsPrefpane.xib */,
 				4F2EC7641C6B7E47000581AA /* Info.plist */,
+				4F931C751C6C7DF800CBAA64 /* HostsItemData.h */,
+				4F931C761C6C7DF800CBAA64 /* HostsItemData.m */,
+				4F931C791C6C8DA400CBAA64 /* EnableCellView.h */,
+				4F931C7A1C6C8DA400CBAA64 /* EnableCellView.m */,
 			);
 			path = HostsPrefpane;
 			sourceTree = "<group>";
@@ -69,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2EC75C1C6B7E47000581AA /* HostsPrefpane.h in Headers */,
+				4F931C771C6C7DF800CBAA64 /* HostsItemData.h in Headers */,
+				4F931C7B1C6C8DA400CBAA64 /* EnableCellView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F931C7C1C6C8DA400CBAA64 /* EnableCellView.m in Sources */,
+				4F931C781C6C7DF800CBAA64 /* HostsItemData.m in Sources */,
 				4F2EC75E1C6B7E47000581AA /* HostsPrefpane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

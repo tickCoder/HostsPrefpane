@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2EC75C1C6B7E47000581AA /* HostsPrefpane.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2EC75B1C6B7E47000581AA /* HostsPrefpane.h */; };
+		4F2EC75E1C6B7E47000581AA /* HostsPrefpane.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EC75D1C6B7E47000581AA /* HostsPrefpane.m */; };
+		4F2EC7601C6B7E47000581AA /* HostsPrefpane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */; };
+		4F2EC7631C6B7E47000581AA /* HostsPrefpane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2EC7611C6B7E47000581AA /* HostsPrefpane.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F2EC7581C6B7E47000581AA /* Hosts.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hosts.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2EC75B1C6B7E47000581AA /* HostsPrefpane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostsPrefpane.h; sourceTree = "<group>"; };
+		4F2EC75D1C6B7E47000581AA /* HostsPrefpane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostsPrefpane.m; sourceTree = "<group>"; };
+		4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = HostsPrefpane.tiff; sourceTree = "<group>"; };
+		4F2EC7621C6B7E47000581AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HostsPrefpane.xib; sourceTree = "<group>"; };
+		4F2EC7641C6B7E47000581AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F2EC7541C6B7E47000581AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2EC74E1C6B7E47000581AA = {
+			isa = PBXGroup;
+			children = (
+				4F2EC75A1C6B7E47000581AA /* HostsPrefpane */,
+				4F2EC7591C6B7E47000581AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F2EC7591C6B7E47000581AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F2EC7581C6B7E47000581AA /* Hosts.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F2EC75A1C6B7E47000581AA /* HostsPrefpane */ = {
+			isa = PBXGroup;
+			children = (
+				4F2EC75B1C6B7E47000581AA /* HostsPrefpane.h */,
+				4F2EC75D1C6B7E47000581AA /* HostsPrefpane.m */,
+				4F2EC75F1C6B7E47000581AA /* HostsPrefpane.tiff */,
+				4F2EC7611C6B7E47000581AA /* HostsPrefpane.xib */,
+				4F2EC7641C6B7E47000581AA /* Info.plist */,
+			);
+			path = HostsPrefpane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F2EC7551C6B7E47000581AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2EC75C1C6B7E47000581AA /* HostsPrefpane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F2EC7571C6B7E47000581AA /* HostsPrefpane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2EC7671C6B7E47000581AA /* Build configuration list for PBXNativeTarget "HostsPrefpane" */;
+			buildPhases = (
+				4F2EC7531C6B7E47000581AA /* Sources */,
+				4F2EC7541C6B7E47000581AA /* Frameworks */,
+				4F2EC7551C6B7E47000581AA /* Headers */,
+				4F2EC7561C6B7E47000581AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HostsPrefpane;
+			productName = HostsPrefpane;
+			productReference = 4F2EC7581C6B7E47000581AA /* Hosts.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2EC74F1C6B7E47000581AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tickCoder;
+				TargetAttributes = {
+					4F2EC7571C6B7E47000581AA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F2EC7521C6B7E47000581AA /* Build configuration list for PBXProject "HostsPrefpane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2EC74E1C6B7E47000581AA;
+			productRefGroup = 4F2EC7591C6B7E47000581AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2EC7571C6B7E47000581AA /* HostsPrefpane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F2EC7561C6B7E47000581AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2EC7631C6B7E47000581AA /* HostsPrefpane.xib in Resources */,
+				4F2EC7601C6B7E47000581AA /* HostsPrefpane.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2EC7531C6B7E47000581AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2EC75E1C6B7E47000581AA /* HostsPrefpane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F2EC7611C6B7E47000581AA /* HostsPrefpane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2EC7621C6B7E47000581AA /* Base */,
+			);
+			name = HostsPrefpane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F2EC7651C6B7E47000581AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F2EC7661C6B7E47000581AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F2EC7681C6B7E47000581AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HostsPrefpane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.HostsPrefpane;
+				PRODUCT_NAME = Hosts;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		4F2EC7691C6B7E47000581AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HostsPrefpane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.HostsPrefpane;
+				PRODUCT_NAME = Hosts;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2EC7521C6B7E47000581AA /* Build configuration list for PBXProject "HostsPrefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2EC7651C6B7E47000581AA /* Debug */,
+				4F2EC7661C6B7E47000581AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2EC7671C6B7E47000581AA /* Build configuration list for PBXNativeTarget "HostsPrefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2EC7681C6B7E47000581AA /* Debug */,
+				4F2EC7691C6B7E47000581AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2EC74F1C6B7E47000581AA /* Project object */;
+}
